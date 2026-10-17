@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <AssemblyName>VampireHuntersVR</AssemblyName>
+    <RootNamespace>VampireHuntersVR</RootNamespace>
+    <LangVersion>latest</LangVersion>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <NoWarn>CS0618;CS0649;CS0414;CS0162;CS0169</NoWarn>
+    <GamePath Condition="'$(GamePath)' == ''">C:\Program Files (x86)\Steam\steamapps\common\Vampire Hunters</GamePath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="$(GamePath)\BepInEx\core\*.dll" Exclude="$(GamePath)\BepInEx\core\dobby.dll" Private="false" />
+    <Reference Include="$(GamePath)\BepInEx\interop\*.dll" Private="false" />
+  </ItemGroup>
+</Project>
