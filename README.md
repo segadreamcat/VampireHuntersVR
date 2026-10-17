@@ -1,22 +1,21 @@
 # Vampire Hunters VR
 
-vr mod for **Vampire Hunters** on pc. play the whole game in your headset with a gun in each hand
+vr mod for **Vampire Hunters** on pc. play the whole game in your headset with a gun or 10 in each hand
 
-not made by Gamecraft Studios and they didnt sign off on it. you gotta own the game on steam
+You have to own the game on steam
 
 ## what it does
 
 - full vr with head tracking (steamvr / openvr)
 - guns are in your hands and each one shoots where that controller points
 - each hand gets its own crosshair
-- controller rumbles when you shoot (only while you hold the trigger so it doesnt buzz nonstop)
+- controller rumbles when you shoot 
 - smooth turn, and you walk the way your head is looking
-- hud floats in front of you, menus show up on a big flat screen just like the normal game
+- hud floats in front of you, menus show up on a big flat screen just like the normal game can remove hud in game menus though.
 - laser pointer for menus, trigger clicks, right stick scrolls
-- logo intro plays on a flat screen, full vr kicks in at the main menu
-- auto clicks the game window for you so your controller buttons always work
 
-tested on quest 3 thru steamvr (steam link / air link / virtual desktop) with a rtx 3070
+
+tested on quest 3 through steamvr (steam link / air link / virtual desktop) with a rtx 3070
 
 ## what you need
 
